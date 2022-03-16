@@ -1,0 +1,49 @@
+/********************/
+/* Body header */
+/********************/
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 2rem;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.8rem;
+}
+
+/********************/
+/* Hero section */
+/********************/
+.hero-section {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 4.8rem;
+}
+.hero-container {
+  display: flex;
+  gap: 3.2rem;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.hero-img {
+  max-width: 50%;
+}
+.hero-subtitle {
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+}
+.btn {
+  align-self: flex-start;
+  padding: 0.8rem 2.4rem;
+  border-radius: 0.8rem;
+  color: #f9faf8;
+  background-color: #3882f6;
+}
