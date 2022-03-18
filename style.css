@@ -70,7 +70,7 @@ header {
 }
 .info-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 3.2rem;
   margin-bottom: 8rem;
@@ -96,10 +96,9 @@ header {
 /**************************/
 .testimonial-section {
   background-color: #e5e7eb;
+  margin-bottom: 8rem;
 }
 .testimonial-container {
-  max-width: 70rem;
-  margin: 8rem auto;
   padding: 8rem 0;
 }
 .quote {
@@ -118,15 +117,16 @@ header {
 /**************************/
 /* CTA section */
 /**************************/
-.cta-element {
-  display: flex;
-  justify-content: center;
-  color: #f9faf8;
+.cta-section {
   background-color: #3882f6;
   border-radius: 8px;
+}
+.cta-element {
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
   margin-bottom: 8rem;
-  padding: 4.8rem;
-  gap: 9.6rem;
+  padding: 4.8rem 0;
 }
 .cta-subtitle {
   font-size: 1.8rem;
