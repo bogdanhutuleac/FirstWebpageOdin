@@ -48,12 +48,8 @@ header {
   font-size: 1.8rem;
   line-height: 1.8rem;
 }
-.btn {
+.hero-btn {
   align-self: flex-start;
-  padding: 0.8rem 2.4rem;
-  border-radius: 0.8rem;
-  color: #f9faf8;
-  background-color: #3882f6;
 }
 
 /********************/
@@ -108,4 +104,28 @@ header {
   font-size: 2rem;
   font-weight: 500;
   text-align: end;
+}
+
+/**************************/
+/* CTA section */
+/**************************/
+.cta-element {
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 8px;
+  margin-bottom: 8rem;
+  padding: 4.8rem;
+  gap: 9.6rem;
+}
+/* .cta-title {
+  padding: 0.8rem 0;
+} */
+.cta-subtitle {
+  font-size: 1.8rem;
+}
+.cta-btn {
+  border: 2px solid #f9faf8;
+  align-self: center;
 }
