@@ -46,12 +46,8 @@ header {
   flex-wrap: wrap;
   max-width: 40%;
 }
-.img-container {
-  max-width: 50%;
-  max-height: 20%;
-}
 .hero-img {
-  max-width: 24%;
+  max-width: 45%;
 }
 .hero-subtitle {
   font-size: 1.8rem;
