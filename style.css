@@ -119,13 +119,25 @@ header {
   padding: 4.8rem;
   gap: 9.6rem;
 }
-/* .cta-title {
-  padding: 0.8rem 0;
-} */
 .cta-subtitle {
   font-size: 1.8rem;
 }
 .cta-btn {
   border: 2px solid #f9faf8;
   align-self: center;
+}
+
+/**************************/
+/* Footer */
+/**************************/
+footer {
+  background-color: #1f2937;
+}
+.footer-container {
+  padding: 4.8rem;
+}
+.footer-paragraph {
+  text-align: center;
+  color: #f9faf8;
+  font-size: 1.8rem;
 }
