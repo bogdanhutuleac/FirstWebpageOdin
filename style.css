@@ -15,7 +15,16 @@ header {
   gap: 2rem;
   font-size: 1.8rem;
 }
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #f9faf8;
+}
 
+.nav-link:hover,
+.nav-link:active {
+  color: #f9faf8;
+}
 /********************/
 /* Hero section */
 /********************/
